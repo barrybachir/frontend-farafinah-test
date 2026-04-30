@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js
+.next/
+out/
+
+# Environment variables (NE PAS versionner les clés API!)
+.env.local
+.env.*.local
+
+# Base de données LevelDB locale
+.data/
+
+# Misc
+.DS_Store
+*.pem
+npm-debug.log*
