@@ -1,14 +1,22 @@
 # Gallery — Galerie d'images avec authentification
 
-Application Next.js (App Router) avec authentification, galerie Unsplash, recherche/filtres et système de likes persistant (fichier JSON via `lowdb`).
+Application Next.js (App Router) avec authentification, galerie Unsplash, recherche/filtres et système de likes persistant (fichier JSON via `lowdb`). Dans le cadre de l'evaluation technique farafinah
 
 ## Guide d'instalation et lancement du projet
 
-## Installation
+
 ## Prerequis
 
 - Node.js 18+ recommande
 - npm
+
+## Installation
+Creer un fichier `.env.local` a la racine du projet:
+et ajouté ceci : 
+
+UNSPLASH_ACCESS_KEY=f2dv6fkhnx9rHZL-_1HK4L_bfMjaNT7_KZrhM9VA0vA
+SESSION_SECRET=7ipM7Jhz-3JjawQd5Br7hv6q4_vatQFcPcZad2HiJOM
+
 
 ```bash
 # 1. Installer les dépendances
