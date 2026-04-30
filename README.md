@@ -10,14 +10,15 @@ Application Next.js (App Router) avec authentification, galerie Unsplash, recher
 - Node.js 18+ recommande
 - npm
 
-## Installation
+## Configuration
 Creer un fichier `.env.local` a la racine du projet:
 et ajouté ceci : 
 
 UNSPLASH_ACCESS_KEY=f2dv6fkhnx9rHZL-_1HK4L_bfMjaNT7_KZrhM9VA0vA
+
 SESSION_SECRET=7ipM7Jhz-3JjawQd5Br7hv6q4_vatQFcPcZad2HiJOM
 
-
+## Installation
 ```bash
 # 1. Installer les dépendances
 npm install
